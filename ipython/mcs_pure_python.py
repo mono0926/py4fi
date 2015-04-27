@@ -39,5 +39,5 @@ C0 = exp(-r * T) * sum([max(path[-1] - K, 0) for path in S]) / I
 
 # Results output
 tpy = time() - t0
-print "European Option Value %7.3f" % C0
-print "Duration in Seconds   %7.3f" % tpy
+print("European Option Value {0:7.3f}".format(C0))
+print("Duration in Seconds   {0:7.3f}".format(tpy))
